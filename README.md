@@ -65,8 +65,9 @@
 如果您只想使用本软件,并不想了解具体的代码实现,用户可以选择下载编译好的Release版本，不用自行手动编译,下载即用
 
 使用Release版本的前提:==系统ROS环境已安装,并且source到环境变量中==
-
-本仓库使用CI自动生成各平台的Release版本(目前只有X86_64版本,Arm环境需要自行编译),在项目的[Release页面](https://github.com/chengyangkj/Ros_Qt5_Gui_App/releases)下载最新对应ROS版本的Release版本，理论上解压后即可使用。
+如果没有安装ros环境，Release界面有humble版本的安装包，适用于ubuntu22.04,解压后将目录放到/opt/ros/下，用export /opt/ros/humble/setup.bash设置一下环境变量
+其他版本的ros安装见ros官网 https://docs.ros.org/en/humble/Installation.html
+本仓库使用CI自动生成各平台的Release版本(目前只有X86_64版本,Arm环境需要自行编译),在项目的[Release页面](https://github.com/flyLpy/qt_ros_gui/releases/tag/V1.0.0)下载Release版本，理论上解压后即可使用。
 使用方法:
 在终端进入解压后的文件夹路径,执行如下命令:
 
