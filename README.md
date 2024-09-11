@@ -570,8 +570,8 @@ is_ellipse=true
 指令修改一下，加载点云功能需要将地址修改为上次建完图后保存的地址，加载点云功能在loadAndShowPCD
 函数中实现
 
-###rosbridge 功能正在实现中
-
+###rosbridge功能
+https://github.com/flyLpy/Rosbridge
 
 
 原文链接：https://github.com/chengyangkj/Ros_Qt5_Gui_App
